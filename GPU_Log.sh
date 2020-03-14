@@ -4,11 +4,9 @@ read -p 'Where to(Leaving this blank will save the file under "~/logs/"): ' pref
 echo $prefix
 if [ -z "$prefix" ]
 then
-    echo "in if"
     prefix="/Users/$USER/logs/";
 fi
 suffix="_GPU_LOG.log";
-echo $prefix;
 filename="$prefix$currentDate$suffix"
 echo $filename;
 touch $filename;
