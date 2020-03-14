@@ -1,5 +1,4 @@
 # gpu_log
-## Description 
 Logs the GPU's Fan Speed, Core Clock, Memory Clock, Fan Speed and Temperature for troubleshooting your mac GPU.
 ## Use 
 ```
